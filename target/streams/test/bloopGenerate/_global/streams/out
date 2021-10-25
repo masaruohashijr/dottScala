@@ -1,0 +1,4 @@
+[debug] [dottproject-test] Classpath dependencies List()
+[debug] [dottproject-test] Dependencies from configurations List(dottproject)
+[debug] Bloop wrote the configuration of project 'dottproject-test' to 'J:\dottProject\.bloop\dottproject-test.json'
+[success] Generated .bloop\dottproject-test.json
