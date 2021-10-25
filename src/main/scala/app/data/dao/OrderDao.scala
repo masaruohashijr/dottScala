@@ -10,11 +10,16 @@ import java.sql.Statement
 import java.time.LocalDate
 import java.time.ZoneId
 import java.util.Date
+import app.data.models.TimeFrames
+import app.data.models.TimeBox
+import java.time.format.DateTimeFormatter
 
 
 object OrderDao {
+    
+    var conn = ConnectionPool.getConnection()
+    
     def loadOrders(orders:Array[Order]):Array[Order]={
-        var conn = ConnectionPool.getConnection()
         var stmt = conn.createStatement()
         stmt.execute(s"DELETE FROM dott.item")
         stmt.execute(s"DELETE FROM dott.order")
@@ -33,5 +38,12 @@ object OrderDao {
             }
         }
         return orders
+    }
+    def filterByInterval(timeBox:TimeBox,timeFrames:TimeFrames):TimeFrames={
+        val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
+        val startAt = LocalDate.parse(timeBox.start, formatter);
+        val endAt = LocalDate.parse(timeBox.end, formatter);
+        val stmt = conn.createStatement()
+        new TimeFrames()
     }
 }
