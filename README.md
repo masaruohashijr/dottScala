@@ -40,3 +40,7 @@ $ java -jar orders.jar "2018-01-01 00:00:00" "2019-01-01 00:00:00"
 
 Add an argument to this tool that allow us to pass a list of intervals instead of having the fixed intervals defined above (“1-3”, “4-6”, “7-12”, “>12”)
 
+<b><h4> Implementation details: </h4></b>
+
+This exercise should be implemented in Scala.
+
