@@ -56,7 +56,7 @@ Armando
 
 9-10 months: 15 orders
 
->12 months: 483 orders
+&gt;12 months: 483 orders
 
 -----------------------
 Filipe
@@ -66,7 +66,7 @@ Filipe
 
 7-12 months: 24 orders
 
->12 months: 413 orders
+&gt;12 months: 413 orders
 
 -----------------------
 Luís
@@ -78,7 +78,7 @@ Luís
 
 9-12 months: 29 orders
 
->12 months: 443 orders
+&gt;12 months: 443 orders
 
 -----------------------
 Vasco
@@ -90,7 +90,7 @@ Vasco
 
 7-12 months: 33 orders
 
->24 months: 394 orders
+&gt;24 months: 394 orders
 
 -----------------------
 João
@@ -102,7 +102,7 @@ João
 
 7-12 months: 33 orders
 
->12 months: 443 orders
+&gt;12 months: 443 orders
 
 
 
