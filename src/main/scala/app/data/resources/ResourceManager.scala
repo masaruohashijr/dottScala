@@ -9,6 +9,7 @@ import app.data.dao.OrderDao
 import app.data.mock.OrderFactory
 import app.data.mock.ProductFactory
 import app.data.mock.CustomerFactory
+import app.controller.Main
 
 object ResourceManager{
 
@@ -25,11 +26,11 @@ object ResourceManager{
     }
 
     def ReloadDatabase(yearsAgo:Int){
-        var customers:Array[Customer] = CustomerFactory.produce(1000)
+        var customers:Array[Customer] = CustomerFactory.produce(Main.NUMBER_OF_CUSTOMERS)
         var lCustomers = loadCustomers(customers)
-        var products:Array[Product] = ProductFactory.produce(2000)
+        var products:Array[Product] = ProductFactory.produce(Main.NUMBER_OF_PRODUCTS)
         var lProducts = loadProducts(products)
-        var orders:Array[Order] = OrderFactory.produce(lCustomers, lProducts, yearsAgo, 10, 1000)
+        var orders:Array[Order] = OrderFactory.produce(lCustomers, lProducts, yearsAgo, 10, Main.NUMBER_OF_ORDERS)
         var lOrders = loadOrders(orders)
     }
 

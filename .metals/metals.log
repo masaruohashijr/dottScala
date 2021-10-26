@@ -18003,3 +18003,333 @@ out 25, 2021 3:00:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 ADVERTÊNCIA: Unmatched cancel notification for request id 8080
 out 25, 2021 3:00:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 ADVERTÊNCIA: Unmatched cancel notification for request id 8086
+out 25, 2021 3:00:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8130
+[0m2021.10.25 15:01:11 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:01:11 INFO  time: compiled dottproject in 90ms[0m
+[0m2021.10.25 15:01:13 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:01:13 INFO  time: compiled dottproject in 0.12s[0m
+[0m2021.10.25 15:01:23 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:01:23 INFO  time: compiled dottproject in 97ms[0m
+[0m2021.10.25 15:01:37 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:01:37 INFO  time: compiled dottproject in 0.14s[0m
+out 25, 2021 3:01:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8264
+out 25, 2021 3:02:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8272
+out 25, 2021 3:02:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8278
+[0m2021.10.25 15:02:10 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:02:10 INFO  time: compiled dottproject in 0.13s[0m
+[0m2021.10.25 15:02:28 INFO  compiling dottproject (2 scala sources)[0m
+[0m2021.10.25 15:02:28 INFO  time: compiled dottproject in 93ms[0m
+[0m2021.10.25 15:02:31 INFO  compiling dottproject (2 scala sources)[0m
+[0m2021.10.25 15:02:31 INFO  time: compiled dottproject in 77ms[0m
+[0m2021.10.25 15:03:22 INFO  compiling dottproject (2 scala sources)[0m
+[0m2021.10.25 15:03:22 INFO  time: compiled dottproject in 0.1s[0m
+[0m2021.10.25 15:03:35 INFO  compiling dottproject (2 scala sources)[0m
+[0m2021.10.25 15:03:35 INFO  time: compiled dottproject in 0.1s[0m
+[0m2021.10.25 15:03:48 INFO  compiling dottproject (2 scala sources)[0m
+[0m2021.10.25 15:03:48 INFO  time: compiled dottproject in 97ms[0m
+out 25, 2021 3:05:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8496
+out 25, 2021 3:05:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8514
+out 25, 2021 3:06:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8521
+[0m2021.10.25 15:06:10 INFO  compiling dottproject (2 scala sources)[0m
+[0m2021.10.25 15:06:10 INFO  time: compiled dottproject in 0.14s[0m
+out 25, 2021 3:06:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8535
+out 25, 2021 3:06:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8542
+[0m2021.10.25 15:06:57 INFO  compiling dottproject (2 scala sources)[0m
+[0m2021.10.25 15:06:58 INFO  time: compiled dottproject in 1.35s[0m
+[0m2021.10.25 15:07:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 15:07:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 15:07:21 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 15:07:21 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57224 .[0m
+[0m2021.10.25 15:07:21 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 15:07:31 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 15:07:31 INFO  Closing debug server tcp://0.0.0.0:57221[0m
+out 25, 2021 3:07:31 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+GRAVE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:96)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:61)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 21 more
+
+out 25, 2021 3:27:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8628
+out 25, 2021 3:27:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8635
+out 25, 2021 3:27:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8641
+out 25, 2021 3:42:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8662
+out 25, 2021 3:42:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8691
+out 25, 2021 3:42:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8698
+[0m2021.10.25 15:43:35 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:43:36 INFO  time: compiled dottproject in 1.18s[0m
+out 25, 2021 3:43:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 8926
+[0m2021.10.25 15:43:46 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:43:46 INFO  time: compiled dottproject in 0.13s[0m
+[0m2021.10.25 15:44:13 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:44:13 INFO  time: compiled dottproject in 83ms[0m
+[0m2021.10.25 15:44:18 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:44:18 INFO  time: compiled dottproject in 76ms[0m
+[0m2021.10.25 15:44:21 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:44:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.25 15:44:23 INFO  time: compiled dottproject in 1.01s[0m
+something's wrong: no file:///J:/dottProject/src/main/scala/app/data/resources/ResourceManager.scala in Array[app.data.models.Product]RangePosition(file:///J:/dottProject/src/main/scala/app/data/resources/ResourceManager.scala, 987, 987, 1001)
+out 25, 2021 3:45:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 9108
+out 25, 2021 3:45:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 9115
+out 25, 2021 3:45:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 51 is not a valid line number, allowed [0..50]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+out 25, 2021 3:46:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 51 is not a valid line number, allowed [0..50]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+out 25, 2021 3:46:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 9161
+out 25, 2021 3:46:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 9169
+out 25, 2021 3:46:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 51 is not a valid line number, allowed [0..50]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+[0m2021.10.25 15:47:15 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:47:17 INFO  time: compiled dottproject in 1.5s[0m
+[0m2021.10.25 15:47:24 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:47:25 INFO  time: compiled dottproject in 1.26s[0m
+[0m2021.10.25 15:48:00 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:48:01 INFO  time: compiled dottproject in 1.15s[0m
+[0m2021.10.25 15:49:33 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:49:35 INFO  time: compiled dottproject in 1.63s[0m
+[0m2021.10.25 15:49:46 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 15:49:47 INFO  time: compiled dottproject in 1.22s[0m
+[0m2021.10.25 15:52:33 INFO  shutting down Metals[0m
+[0m2021.10.25 15:52:33 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.25 15:52:33 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.25 16:00:50 INFO  Started: Metals version 0.10.7 in workspace 'J:\dottProject' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.25 16:00:52 INFO  time: initialize in 1.48s[0m
+[0m2021.10.25 16:00:53 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.25 16:00:52 WARN  no build target for: J:\dottProject\src\main\scala\app\data\dao\OrderDao.scala[0m
+[0m2021.10.25 16:00:53 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34398'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34398...
+The server is listening for incoming connections at tcp://127.0.0.1:34398...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 16:00:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.25 16:00:55 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43968'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43968...
+The server is listening for incoming connections at tcp://127.0.0.1:43968...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 16:00:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.25 16:00:56 INFO  time: Connected to build server in 3.64s[0m
+[0m2021.10.25 16:00:56 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.25 16:00:58 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.25 16:01:00 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.25 16:01:02 INFO  time: code lens generation in 8.42s[0m
+[0m2021.10.25 16:01:02 INFO  time: code lens generation in 8.48s[0m
+[0m2021.10.25 16:01:05 INFO  time: indexed workspace in 6.6s[0m
+[0m2021.10.25 16:01:07 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.25 16:01:20 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 16:01:20 INFO  time: compiled dottproject in 0.86s[0m
+[0m2021.10.25 16:17:46 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 16:17:46 INFO  time: compiled dottproject in 0.9s[0m
+out 25, 2021 4:18:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 195
+[0m2021.10.25 16:18:19 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 16:18:19 INFO  time: compiled dottproject in 0.84s[0m
+[0m2021.10.25 16:18:34 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 16:18:34 INFO  time: compiled dottproject in 80ms[0m
+[0m2021.10.25 16:18:37 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 16:18:37 INFO  time: compiled dottproject in 60ms[0m
+[0m2021.10.25 16:18:41 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 16:18:41 INFO  time: compiled dottproject in 52ms[0m
+[0m2021.10.25 16:18:45 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 16:18:45 INFO  time: compiled dottproject in 0.85s[0m
+[0m2021.10.25 17:27:23 INFO  time: code lens generation in 1.36s[0m
+[0m2021.10.25 17:27:23 INFO  time: code lens generation in 1.36s[0m
+out 25, 2021 5:27:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 322
+out 25, 2021 5:28:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 339
+out 25, 2021 5:30:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 422
+[0m2021.10.25 17:31:18 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 17:31:19 INFO  time: compiled dottproject in 1.72s[0m
+[0m2021.10.25 17:31:23 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 17:31:23 INFO  time: compiled dottproject in 0.31s[0m
+[0m2021.10.25 17:31:30 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 17:31:30 INFO  time: compiled dottproject in 0.1s[0m
+[0m2021.10.25 17:31:36 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 17:31:36 INFO  time: compiled dottproject in 0.2s[0m
+[0m2021.10.25 17:32:31 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 17:32:31 INFO  time: compiled dottproject in 86ms[0m
+[0m2021.10.25 17:32:36 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 17:32:36 INFO  time: compiled dottproject in 78ms[0m
+[0m2021.10.25 17:32:54 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 17:32:54 INFO  time: compiled dottproject in 0.11s[0m
+out 25, 2021 5:37:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 815
+[0m2021.10.25 17:37:45 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 17:37:45 INFO  time: compiled dottproject in 94ms[0m
