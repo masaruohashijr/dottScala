@@ -26719,3 +26719,208 @@ ADVERTÊNCIA: Unmatched cancel notification for request id 650
 [0m2021.10.25 23:14:12 INFO  Attaching to debuggee VM succeeded.[0m
 [0m2021.10.25 23:14:16 INFO  Canceling debug proxy for [app.controller.Main][0m
 [0m2021.10.25 23:14:16 INFO  Closing debug server tcp://0.0.0.0:55997[0m
+[0m2021.10.25 23:15:19 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:15:19 INFO  time: compiled dottproject in 0.8s[0m
+[0m2021.10.25 23:15:26 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:15:26 INFO  time: compiled dottproject in 0.71s[0m
+[0m2021.10.25 23:15:32 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:15:32 INFO  time: compiled dottproject in 0.91s[0m
+[0m2021.10.25 23:15:42 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:15:42 INFO  time: compiled dottproject in 0.81s[0m
+[0m2021.10.25 23:15:48 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:15:48 INFO  time: compiled dottproject in 0.83s[0m
+out 25, 2021 11:15:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 796
+out 25, 2021 11:15:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 818
+out 25, 2021 11:15:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 827
+[0m2021.10.25 23:16:02 INFO  Deduplicating compilation of dottproject from bsp client 'Metals 0.10.7' (since 9m 48.939s)[0m
+[0m2021.10.25 23:16:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:16:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:16:07 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:16:07 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58330 .[0m
+[0m2021.10.25 23:16:07 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:16:10 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:16:10 INFO  Closing debug server tcp://0.0.0.0:58328[0m
+[0m2021.10.25 23:17:26 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:17:26 INFO  time: compiled dottproject in 0.97s[0m
+out 25, 2021 11:17:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 923
+[0m2021.10.25 23:17:36 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:17:36 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:17:36 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:17:36 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:65052 .[0m
+[0m2021.10.25 23:17:36 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:17:39 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:17:39 INFO  Closing debug server tcp://0.0.0.0:65049[0m
+out 25, 2021 11:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 938
+out 25, 2021 11:19:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 956
+[0m2021.10.25 23:19:20 INFO  Deduplicating compilation of dottproject from bsp client 'Metals 0.10.7' (since 13m 6.892s)[0m
+[0m2021.10.25 23:19:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:19:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:19:25 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:19:25 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:57928 .[0m
+[0m2021.10.25 23:19:25 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:19:28 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:19:28 INFO  Closing debug server tcp://0.0.0.0:57924[0m
+out 25, 2021 11:19:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 967
+out 25, 2021 11:19:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 974
+out 25, 2021 11:20:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 999
+out 25, 2021 11:20:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1006
+something's wrong: no file:///J:/dottProject/src/main/scala/app/data/models/StockKeeper.scala in Array[app.data.models.TimeFrame]RangePosition(file:///J:/dottProject/src/main/scala/app/data/models/StockKeeper.scala, 392, 392, 408)
+[0m2021.10.25 23:22:15 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:22:15 INFO  time: compiled dottproject in 0.68s[0m
+out 25, 2021 11:22:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1037
+[0m2021.10.25 23:22:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:22:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:22:24 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:22:24 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:52504 .[0m
+[0m2021.10.25 23:22:24 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:22:27 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:22:27 INFO  Closing debug server tcp://0.0.0.0:52501[0m
+out 25, 2021 11:22:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1058
+out 25, 2021 11:23:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1084
+out 25, 2021 11:24:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1098
+out 25, 2021 11:24:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1105
+out 25, 2021 11:24:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1112
+[0m2021.10.25 23:24:34 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:24:34 INFO  time: compiled dottproject in 0.75s[0m
+out 25, 2021 11:24:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1154
+[0m2021.10.25 23:24:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:24:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:24:43 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:24:43 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:65301 .[0m
+[0m2021.10.25 23:24:43 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:24:46 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:24:46 INFO  Closing debug server tcp://0.0.0.0:65298[0m
+out 25, 2021 11:25:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1174
+out 25, 2021 11:25:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1198
+[0m2021.10.25 23:25:56 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:25:56 INFO  time: compiled dottproject in 83ms[0m
+[0m2021.10.25 23:25:58 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:25:58 INFO  time: compiled dottproject in 65ms[0m
+[0m2021.10.25 23:26:06 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:26:06 INFO  time: compiled dottproject in 81ms[0m
+out 25, 2021 11:26:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1395
+out 25, 2021 11:26:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1402
+out 25, 2021 11:26:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1415
+[0m2021.10.25 23:26:25 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:26:25 INFO  time: compiled dottproject in 58ms[0m
+[0m2021.10.25 23:26:27 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:26:27 INFO  time: compiled dottproject in 60ms[0m
+[0m2021.10.25 23:26:27 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:26:27 INFO  time: compiled dottproject in 38ms[0m
+out 25, 2021 11:26:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1451
+[0m2021.10.25 23:26:39 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:26:39 INFO  time: compiled dottproject in 77ms[0m
+[0m2021.10.25 23:26:41 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:26:41 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.25 23:26:41 INFO  time: compiled dottproject in 0.66s[0m
+out 25, 2021 11:26:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1488
+[0m2021.10.25 23:26:53 INFO  Deduplicating compilation of dottproject from bsp client 'Metals 0.10.7' (since 20m 39.841s)[0m
+[0m2021.10.25 23:26:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:26:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:26:58 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:26:58 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:50360 .[0m
+[0m2021.10.25 23:26:58 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:27:01 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:27:01 INFO  Closing debug server tcp://0.0.0.0:50357[0m
+out 25, 2021 11:27:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1499
+[0m2021.10.25 23:27:34 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:27:34 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.25 23:27:34 INFO  time: compiled dottproject in 0.66s[0m
+[0m2021.10.25 23:27:59 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:27:59 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.25 23:27:59 INFO  time: compiled dottproject in 0.66s[0m
+out 25, 2021 11:28:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1593
+[0m2021.10.25 23:28:06 INFO  Deduplicating compilation of dottproject from bsp client 'Metals 0.10.7' (since 21m 53.034s)[0m
+[0m2021.10.25 23:28:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:28:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:28:11 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:28:11 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:64709 .[0m
+[0m2021.10.25 23:28:11 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:28:15 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:28:15 INFO  Closing debug server tcp://0.0.0.0:64706[0m
+out 25, 2021 11:28:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1608
+[0m2021.10.25 23:28:53 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:28:53 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.25 23:28:53 INFO  time: compiled dottproject in 0.64s[0m
+out 25, 2021 11:28:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1680
+[0m2021.10.25 23:28:58 INFO  Deduplicating compilation of dottproject from bsp client 'Metals 0.10.7' (since 22m 45.324s)[0m
+[0m2021.10.25 23:29:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:29:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:29:03 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:29:03 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58865 .[0m
+[0m2021.10.25 23:29:03 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:29:06 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:29:06 INFO  Closing debug server tcp://0.0.0.0:58862[0m
+out 25, 2021 11:29:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1692
+[0m2021.10.25 23:29:44 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:29:44 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.25 23:29:44 INFO  time: compiled dottproject in 0.64s[0m
+out 25, 2021 11:29:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1715
+[0m2021.10.25 23:29:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:29:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:29:53 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:29:53 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58951 .[0m
+[0m2021.10.25 23:29:53 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:29:56 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:29:56 INFO  Closing debug server tcp://0.0.0.0:58948[0m
+out 25, 2021 11:30:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1728
+[0m2021.10.25 23:30:58 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:30:58 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.25 23:30:58 INFO  time: compiled dottproject in 0.85s[0m
+out 25, 2021 11:31:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1758
+[0m2021.10.25 23:31:04 INFO  Deduplicating compilation of dottproject from bsp client 'Metals 0.10.7' (since 24m 50.832s)[0m
+[0m2021.10.25 23:31:06 INFO  Deduplicating compilation of dottproject from bsp client 'Metals 0.10.7' (since 24m 52.91s)[0m
+[0m2021.10.25 23:31:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:31:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:31:09 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:31:09 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:60616 .[0m
+[0m2021.10.25 23:31:09 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:31:12 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:31:12 INFO  Closing debug server tcp://0.0.0.0:60613[0m
+[0m2021.10.25 23:31:32 INFO  compiling dottproject (1 scala source)[0m
+[0m2021.10.25 23:31:32 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.25 23:31:32 INFO  time: compiled dottproject in 0.82s[0m
+out 25, 2021 11:31:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1827
+[0m2021.10.25 23:31:38 INFO  Deduplicating compilation of dottproject from bsp client 'Metals 0.10.7' (since 25m 24.692s)[0m
+[0m2021.10.25 23:31:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 23:31:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Logus\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 23:31:43 INFO  Starting debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:31:43 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:60691 .[0m
+[0m2021.10.25 23:31:43 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 23:31:46 INFO  Canceling debug proxy for [app.controller.Main][0m
+[0m2021.10.25 23:31:46 INFO  Closing debug server tcp://0.0.0.0:60688[0m
+out 25, 2021 11:32:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 1839
