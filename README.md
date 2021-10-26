@@ -4,13 +4,13 @@
 
 The purpose of this exercise is to check if older products are still being sold. Consider the following entities:
 
-Order: contains general information about the order (customer name and contact,
+<b>Order:</b> contains general information about the order (customer name and contact,
 
 shipping address, grand total, date when the order was placed, ...)
 
-Item: information about the purchased item (cost, shipping fee, tax amount, ...)
+<b>Item:</b> information about the purchased item (cost, shipping fee, tax amount, ...)
 
-Product: information about the product (name, category, weight, price, creation date, ...)
+<b>Product:</b> information about the product (name, category, weight, price, creation date, ...)
 
 These entities are all related: one order contains several items and each item has a product.
 
@@ -34,7 +34,7 @@ $ java -jar orders.jar "2018-01-01 00:00:00" "2019-01-01 00:00:00"
 
 7-12 months: 50 orders
 
->12 months: 20 orders
+&gt;12 months: 20 orders
 
 <b><h4> Bonus feature: </h4></b>
 
