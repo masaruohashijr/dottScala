@@ -11,7 +11,7 @@
         end as time_band,
         count(1) as qtd from (
         select distinct c.id_order, 
-        (date_part('month','2020-12-31'::date)-date_part('month',a.created_at::date)
+        (abs(date_part('month','2020-12-31'::date)-date_part('month',a.created_at::date))
         +(date_part('year','2020-12-31'::date)-date_part('year',a.created_at::date))*12
         ) as age  
         from dott.product a 
