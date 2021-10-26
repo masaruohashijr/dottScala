@@ -43,6 +43,7 @@ This exercise should be implemented in Scala.
 -----------------------
 Armando
 .......................
+
 1-2 months: 1 orders
 
 11-12 months: 15 orders
@@ -60,6 +61,7 @@ Armando
 -----------------------
 Filipe
 .......................
+
 1-6 months: 11 orders
 
 7-12 months: 24 orders
@@ -69,6 +71,7 @@ Filipe
 -----------------------
 Luís
 .......................
+
 1-4 months: 7 orders
 
 5-8 months: 11 orders
@@ -80,6 +83,7 @@ Luís
 -----------------------
 Vasco
 .......................
+
 1-6 months: 12 orders
 
 13-24 months: 89 orders
@@ -91,6 +95,7 @@ Vasco
 -----------------------
 João
 .......................
+
 1-3 months: 6 orders
 
 4-6 months: 8 orders
