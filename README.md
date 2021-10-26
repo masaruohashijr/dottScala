@@ -38,3 +38,67 @@ Add an argument to this tool that allow us to pass a list of intervals instead o
 
 This exercise should be implemented in Scala.
 
+
+<b><h4> My results: </h4></b>
+-----------------------
+Armando
+.......................
+1-2 months: 1 orders
+
+11-12 months: 15 orders
+
+3-4 months: 5 orders
+
+5-6 months: 6 orders
+
+7-8 months: 3 orders
+
+9-10 months: 15 orders
+
+>12 months: 483 orders
+
+-----------------------
+Filipe
+.......................
+1-6 months: 11 orders
+
+7-12 months: 24 orders
+
+>12 months: 413 orders
+
+-----------------------
+Luís
+.......................
+1-4 months: 7 orders
+
+5-8 months: 11 orders
+
+9-12 months: 29 orders
+
+>12 months: 443 orders
+
+-----------------------
+Vasco
+.......................
+1-6 months: 12 orders
+
+13-24 months: 89 orders
+
+7-12 months: 33 orders
+
+>24 months: 394 orders
+
+-----------------------
+João
+.......................
+1-3 months: 6 orders
+
+4-6 months: 8 orders
+
+7-12 months: 33 orders
+
+>12 months: 443 orders
+
+
+
+
