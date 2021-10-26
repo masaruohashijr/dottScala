@@ -9,7 +9,7 @@ import app.data.services.ReportService
 
 object StockKeeperManager{
 
-    val sks:ArrayList[StockKeeper] = new ArrayList[StockKeeper](0)
+    var sks:ArrayList[StockKeeper] = new ArrayList[StockKeeper](0)
 
     def newKeeper(name:String, timeBox:TimeBox, timeFrames:TimeFrames){
         var sk = new StockKeeper(name, timeBox, timeFrames)
@@ -21,6 +21,13 @@ object StockKeeperManager{
     }
 
     def printReports(){
-        ReportService.print(sks)
+        for(sk<-sks.toArray(Array.ofDim[StockKeeper](sks.size))){
+            println(sk.rows.length)
+            sk.rows.synchronized {
+                for(row<-sk.rows){
+                    println(row)
+                }
+            }
+        }
     }
 }

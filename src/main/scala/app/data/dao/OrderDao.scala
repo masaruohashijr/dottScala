@@ -13,6 +13,7 @@ import java.util.Date
 import app.data.models.TimeFrames
 import app.data.models.TimeBox
 import java.time.format.DateTimeFormatter
+import app.data.models.TimeFrame
 
 object OrderDao {
 
@@ -40,7 +41,7 @@ object OrderDao {
     }
     return orders
   }
-  def filterByInterval(timeBox: TimeBox, timeFrames: TimeFrames): TimeFrames = {
+  def filterByInterval(timeBox: TimeBox, timeFrames: TimeFrames): Array[TimeFrame] = {
     val frames = timeFrames.frames
     val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
     val startAt = LocalDate.parse(timeBox.start, formatter);
@@ -48,31 +49,40 @@ object OrderDao {
     val stmt = conn.createStatement()
     var sb = new StringBuffer()
     var bands = timeFrames.toArray()
+    
     sb.append("select r2.time_band,sum(r2.qtd) from (select case ")
+    var else_part = ""
     for (band <- bands) {
-      sb.append(" when r1.age between 1 and 3 then '1-3' ")
-      sb.append(" else '>12' ")
+      if(band.frame.indexOf(">")>=0){
+        else_part = band.frame 
+      } else {
+        sb.append(" when r1.age between "+band.begin+" and "+band.end+" then '"+band.frame+"' ")
+      }
     }
+    sb.append(" else '"+else_part+"' ")
     sb.append(" end as time_band, ")
     sb.append(" count(1) as qtd from ( ")
     sb.append(" select distinct c.id_order,  ")
-    sb.append(
-      " (date_part('month','2020-12-31'::date)-date_part('month',a.created_at::date) "
-    )
-    sb.append(
-      " +(date_part('year','2020-12-31'::date)-date_part('year',a.created_at::date))*12 "
-    )
+    sb.append(" (date_part('month','"+timeBox.end+"'::date)-date_part('month',a.created_at::date) ")
+    sb.append(" +(date_part('year','"+timeBox.end+"'::date)-date_part('year',a.created_at::date))*12 ")
     sb.append(" ) as age   ")
     sb.append(" from dott.product a  ")
     sb.append(" inner join dott.item b on a.id_product = b.id_product ")
     sb.append(" inner join dott.order c on b.id_order = c.id_order  ")
-    sb.append(" where c.created_at between '2020-01-01' and '2021-01-01') r1 ")
+    sb.append(" where c.created_at between '"+timeBox.start+"' and '"+timeBox.end+"') r1 ")
     sb.append(" group by r1.age ")
     sb.append(" order by 1) r2 ")
     sb.append(" group by r2.time_band  ")
+    //println(sb.toString())
     var rs = stmt.executeQuery(sb.toString())
     var array_list = new ArrayList[Product]()
-    while (rs.next()) {}
-    new TimeFrames()
+    var counter = 0
+    while (rs.next()) {
+      var band = timeFrames.bands(counter)
+      band.frame = rs.getString(1)
+      band.qtt = rs.getInt(2)
+      counter+=1
+    }
+    bands
   }
 }

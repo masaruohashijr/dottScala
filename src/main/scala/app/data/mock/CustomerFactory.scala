@@ -6,7 +6,7 @@ object CustomerFactory{
         var customers = new Array[Customer](qtt)
         for (i <- 0 to qtt-1) {
             var customer = CustomerMock.create()
-            println(customer)
+            //println(customer)
             customers(i) = customer
         }
         customers

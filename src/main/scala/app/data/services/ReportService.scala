@@ -4,7 +4,6 @@ import java.util.ArrayList
 import app.data.models.StockKeeper
 
 object ReportService{
-    def print(sks:ArrayList[StockKeeper]){
-
+    def print(skss:ArrayList[StockKeeper]){
     }
 }

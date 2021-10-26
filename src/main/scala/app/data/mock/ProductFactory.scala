@@ -6,7 +6,7 @@ object ProductFactory {
         var products = new Array[Product](qtt)
         for (i <- 0 to qtt-1) {
             var p = ProductMock.create()
-            println(p)
+            // println(p)
             products(i) = p
         }
         products

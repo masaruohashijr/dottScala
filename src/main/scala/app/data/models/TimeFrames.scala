@@ -9,10 +9,10 @@ class TimeFrames(var frames:Array[String]){
             var a = f.split("-")
             var begin = a(0)
             var end = a(0)
-            if(a.length > 0){
+            if(a.length > 1){
                 end = a(1)
             }
-            bands(counter) = new TimeFrame(begin,end)
+            bands(counter) = new TimeFrame(f,begin,end)
             counter+=1
         }
         bands

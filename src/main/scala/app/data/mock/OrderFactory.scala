@@ -22,7 +22,7 @@ object OrderFactory{
             var createdAt = mockCreatedAt(yearsAgo)
             order = OrderMock.create(customer, null, createdAt)
             var items = mockItems(order, products, maxQttItems)
-            println(order)
+            // println(order)
             orders(i) = order
         }
         orders
@@ -45,14 +45,14 @@ object OrderFactory{
                 || usedProducts.contains(products(rp))){
                 rp = r.nextInt(products.length)
             }
-            println(products(rp).creation_date)
+            // println(products(rp).creation_date)
             items(i) = new Item(products(rp), qttProduct)
             usedProducts += products(rp)
         }
         if (items.length == 0 ){
             mockItems(order, products, maxQttItems)
         }
-        println("Quantidade de items: ",items.length)
+        // println("Quantidade de items: ",items.length)
         order.items = items
         items
     }
