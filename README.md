@@ -1,6 +1,6 @@
 # Adentis Exercise: 2021-10-25
 
-<b><h4>Main Query applied:</h4></b>
+<b><h4>Below the Query applied in OrderDao object:</h4></b>
 <pre>
   <code>
     select r2.time_band,sum(r2.qtd) from (select case 
