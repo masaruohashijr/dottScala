@@ -4,9 +4,7 @@
 
 The purpose of this exercise is to check if older products are still being sold. Consider the following entities:
 
-<b>Order:</b> contains general information about the order (customer name and contact,
-
-shipping address, grand total, date when the order was placed, ...)
+<b>Order:</b> contains general information about the order (customer name and contact, shipping address, grand total, date when the order was placed, ...)
 
 <b>Item:</b> information about the purchased item (cost, shipping fee, tax amount, ...)
 
@@ -16,11 +14,7 @@ These entities are all related: one order contains several items and each item h
 
 Please implement a tool that receives an interval and filters all orders placed during that interval.
 
-The result should be a list of intervals (in months) that groups the orders based on the product
-
-age (creation date field in the product entity). If we have orders in the older intervals it means
-
-that older products are still being sold.
+The result should be a list of intervals (in months) that groups the orders based on the product age (creation date field in the product entity). If we have orders in the older intervals it means that older products are still being sold.
 
 <b><h4> Example </h4></b>
 
