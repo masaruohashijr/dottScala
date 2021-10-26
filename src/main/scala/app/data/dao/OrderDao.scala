@@ -63,7 +63,7 @@ object OrderDao {
     sb.append(" end as time_band, ")
     sb.append(" count(1) as qtd from ( ")
     sb.append(" select distinct c.id_order,  ")
-    sb.append(" (date_part('month','"+timeBox.end+"'::date)-date_part('month',a.created_at::date) ")
+    sb.append(" (abs(date_part('month','"+timeBox.end+"'::date)-date_part('month',a.created_at::date)) ")
     sb.append(" +(date_part('year','"+timeBox.end+"'::date)-date_part('year',a.created_at::date))*12 ")
     sb.append(" ) as age   ")
     sb.append(" from dott.product a  ")
