@@ -1,5 +1,29 @@
 # Adentis Exercise: 2021-10-25
 
+<b><h4>Main Query applied:</h4></b>
+<pre>
+  <code>
+    select r2.time_band,sum(r2.qtd) from (select case 
+        when r1.age between 1 and 3 then '1-3'
+        when r1.age between 4 and 6 then '4-6'
+        when r1.age between 7 and 12 then '7-12'  
+        else '>12'
+        end as time_band,
+        count(1) as qtd from (
+        select distinct c.id_order, 
+        (date_part('month','2020-12-31'::date)-date_part('month',a.created_at::date)
+        +(date_part('year','2020-12-31'::date)-date_part('year',a.created_at::date))*12
+        ) as age  
+        from dott.product a 
+        inner join dott.item b on a.id_product = b.id_product
+        inner join dott.order c on b.id_order = c.id_order 
+        where c.created_at between '2020-01-01' and '2020-12-31') r1
+        group by r1.age
+        order by 1) r2
+        group by r2.time_band  
+    </code>
+</pre>
+
 <b><h4> Description </h4></b>
 
 The purpose of this exercise is to check if older products are still being sold. Consider the following entities:
