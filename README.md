@@ -23,11 +23,17 @@
         group by r2.time_band  
     </code>
 </pre>
+<b><h4>Below the Time Bands being parametrized into query assembling:</h4></b>
 ![image](https://user-images.githubusercontent.com/20522327/138982616-cafd1a43-772e-4727-a92a-f3a576f376b2.png)
-
+<b><h4>Below the Main class calling ResourceManager for loading mock objects to Postgres database:</h4></b>
+![image](https://user-images.githubusercontent.com/20522327/138982948-1bf454b0-87a9-4cfd-a2b7-a817c9f23439.png)
+<b><h4>Below the Threads initializations:</h4></b>
 ![Main](https://user-images.githubusercontent.com/20522327/138980487-4188cc81-af88-4ca1-a3af-61ed4bfe2260.png)
+<b><h4>Below the Mocking done for loading DB with samples:</h4></b>
 ![ResourceManager](https://user-images.githubusercontent.com/20522327/138981112-9222aa01-115d-4b83-9f85-775c9bdf0bfb.png)
+<b><h4>Below the Factory Method:</h4></b>
 ![StockKeeper](https://user-images.githubusercontent.com/20522327/138981878-2842a26f-913e-441a-89b9-07ae66d23c03.png)
+<b><h4>Below Creational Patterns:</h4></b>
 ![ProductFactory](https://user-images.githubusercontent.com/20522327/138982504-c2ce3364-bc88-4503-aeb9-33ecc33b29b2.png)
 
 <b><h4> Description </h4></b>
