@@ -1,54 +1,7 @@
 # Order => Item => Product
 
 <b><h4>Below the Query applied in OrderDao object:</h4></b>
-<pre>
-  <code>
-    select
-	R2.AGE as IDADE_MESES,
-	SUM(R2.QTT)|| ' orders' as QUANTIDADE
-from
-	(
-	select
-		case
-			when R1.AGE > 1
-			and R1.AGE < 20 then '''1-20'' months:'
-			when R1.AGE > 21
-			and R1.AGE < 40 then '''21-40'' months:'
-			when R1.AGE > 41
-			and R1.AGE < 60 then '''41-60'' months:'
-			else '>60 months:'
-		end as AGE,
-		COUNT(1) as QTT
-	from
-		(
-		select
-			a.id_order,
-			c.id_product,
-			a.created_at as criacao_pedido,
-			c.created_at as criacao_produto,
-			(abs(date_part('month', a.created_at)-date_part('month', c.created_at))+
-(date_part('year', a.created_at)-date_part('year', c.created_at))* 12) as AGE
-		from
-			dott.order a
-		left join dott.item b on
-			a.id_order = b.id_order
-		left join dott.product c on
-			b.id_product = c.id_product
-		where
-			a.created_at between '2020-01-01'::date and '2020-12-31'::date
-		order by
-			a.created_at desc
-) R1
-	group by
-		R1.AGE
-	order by
-		R1.AGE) R2
-group by
-	R2.AGE
-order by
-	1
-    </code>
-</pre>
+![image](https://user-images.githubusercontent.com/20522327/138985282-f8d39dd3-dd85-4e5c-9a2a-cc4bce9b8e97.png)
 <b><h4>Below the Time Bands being parametrized into query assembling:</h4></b>
 ![image](https://user-images.githubusercontent.com/20522327/138982616-cafd1a43-772e-4727-a92a-f3a576f376b2.png)
 <b><h4>Below the Main class calling ResourceManager for loading mock objects to Postgres database:</h4></b>
