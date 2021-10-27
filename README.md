@@ -24,6 +24,8 @@
     </code>
 </pre>
 
+![Main](https://user-images.githubusercontent.com/20522327/138980487-4188cc81-af88-4ca1-a3af-61ed4bfe2260.png)
+
 <b><h4> Description </h4></b>
 
 The purpose of this exercise is to check if older products are still being sold. Consider the following entities:
