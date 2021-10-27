@@ -3,24 +3,50 @@
 <b><h4>Below the Query applied in OrderDao object:</h4></b>
 <pre>
   <code>
-    select r2.time_band,sum(r2.qtd) from (select case 
-        when r1.age between 1 and 3 then '1-3'
-        when r1.age between 4 and 6 then '4-6'
-        when r1.age between 7 and 12 then '7-12'  
-        else '>12'
-        end as time_band,
-        count(1) as qtd from (
-        select distinct c.id_order, 
-        (abs(date_part('month','2020-12-31'::date)-date_part('month',a.created_at::date))
-        +(date_part('year','2020-12-31'::date)-date_part('year',a.created_at::date))*12
-        ) as age  
-        from dott.product a 
-        inner join dott.item b on a.id_product = b.id_product
-        inner join dott.order c on b.id_order = c.id_order 
-        where c.created_at between '2020-01-01' and '2020-12-31') r1
-        group by r1.age
-        order by 1) r2
-        group by r2.time_band  
+    select
+	R2.AGE as IDADE_MESES,
+	SUM(R2.QTT)|| ' orders' as QUANTIDADE
+from
+	(
+	select
+		case
+			when R1.AGE > 1
+			and R1.AGE < 20 then '''1-20'' months:'
+			when R1.AGE > 21
+			and R1.AGE < 40 then '''21-40'' months:'
+			when R1.AGE > 41
+			and R1.AGE < 60 then '''41-60'' months:'
+			else '>60 months:'
+		end as AGE,
+		COUNT(1) as QTT
+	from
+		(
+		select
+			a.id_order,
+			c.id_product,
+			a.created_at as criacao_pedido,
+			c.created_at as criacao_produto,
+			(abs(date_part('month', a.created_at)-date_part('month', c.created_at))+
+(date_part('year', a.created_at)-date_part('year', c.created_at))* 12) as AGE
+		from
+			dott.order a
+		left join dott.item b on
+			a.id_order = b.id_order
+		left join dott.product c on
+			b.id_product = c.id_product
+		where
+			a.created_at between '2020-01-01'::date and '2020-12-31'::date
+		order by
+			a.created_at desc
+) R1
+	group by
+		R1.AGE
+	order by
+		R1.AGE) R2
+group by
+	R2.AGE
+order by
+	1
     </code>
 </pre>
 <b><h4>Below the Time Bands being parametrized into query assembling:</h4></b>
