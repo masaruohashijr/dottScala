@@ -27,6 +27,7 @@
 ![Main](https://user-images.githubusercontent.com/20522327/138980487-4188cc81-af88-4ca1-a3af-61ed4bfe2260.png)
 ![ResourceManager](https://user-images.githubusercontent.com/20522327/138981112-9222aa01-115d-4b83-9f85-775c9bdf0bfb.png)
 ![StockKeeper](https://user-images.githubusercontent.com/20522327/138981878-2842a26f-913e-441a-89b9-07ae66d23c03.png)
+![ProductFactory](https://user-images.githubusercontent.com/20522327/138982504-c2ce3364-bc88-4503-aeb9-33ecc33b29b2.png)
 
 <b><h4> Description </h4></b>
 
