@@ -35,6 +35,8 @@
 ![StockKeeper](https://user-images.githubusercontent.com/20522327/138981878-2842a26f-913e-441a-89b9-07ae66d23c03.png)
 <b><h4>Below Creational Patterns:</h4></b>
 ![ProductFactory](https://user-images.githubusercontent.com/20522327/138982504-c2ce3364-bc88-4503-aeb9-33ecc33b29b2.png)
+<b><h4>Below a Package Diagram:</h4></b>
+![Packages](https://user-images.githubusercontent.com/20522327/138984495-5d566fd0-f1f7-4666-8d94-439809a48683.png)
 
 <b><h4> Description </h4></b>
 
