@@ -23,6 +23,7 @@
         group by r2.time_band  
     </code>
 </pre>
+![image](https://user-images.githubusercontent.com/20522327/138982616-cafd1a43-772e-4727-a92a-f3a576f376b2.png)
 
 ![Main](https://user-images.githubusercontent.com/20522327/138980487-4188cc81-af88-4ca1-a3af-61ed4bfe2260.png)
 ![ResourceManager](https://user-images.githubusercontent.com/20522327/138981112-9222aa01-115d-4b83-9f85-775c9bdf0bfb.png)
